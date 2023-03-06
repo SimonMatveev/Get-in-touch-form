@@ -1,0 +1,14 @@
+.form__file-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #8E8E8E;
+  margin: auto;
+  padding-left: 48px;
+  background-image: url(../../../images/form__file-text.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+}

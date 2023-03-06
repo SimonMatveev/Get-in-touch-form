@@ -1,0 +1,8 @@
+.form__nda {
+  display: flex;
+  column-gap: 12px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  margin-bottom: 20px;
+}

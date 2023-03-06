@@ -1,0 +1,38 @@
+.form__item {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #737B7D;
+  padding: 12px 16px;
+  margin-bottom: 13px;
+  box-sizing: border-box;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0.5px;
+  color: #383C3E;
+
+}
+
+.form__item::placeholder {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0.5px;
+  color: #8E8E8E;
+}
+
+.form__item:focus {
+  outline: none;
+  background-color: #dfdfdf;
+  border-bottom: 1px solid black;
+}
+
+.form__item:hover {
+  border-bottom: 1px solid black;
+}
+

@@ -1,0 +1,14 @@
+.contact__contacts-link {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 154%;
+  letter-spacing: 0.02em;
+  color: #DD5471;
+  text-decoration: none;
+}
+
+.contact__contacts-link:hover {
+  text-decoration: underline;
+}

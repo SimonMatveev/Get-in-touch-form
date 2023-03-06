@@ -1,0 +1,28 @@
+.form__checkbox-label {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  box-sizing: border-box;
+  border: 1px solid #383C3E;
+  cursor: pointer;
+}
+
+.form__checkbox-label:hover {
+  border-color: #000000;
+}
+
+.form__checkbox-label::before {
+  content: "\2713";
+  position: absolute;
+  top: 0;
+  left: 2px;
+  display: none;
+  width: 16px;
+  height: 16px;
+  font-size: 14px;
+}
+
+.form__checkbox:checked+.form__checkbox-label::before {
+  display: block;
+}

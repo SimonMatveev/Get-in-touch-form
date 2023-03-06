@@ -1,0 +1,10 @@
+.form__file-description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 160%;
+  letter-spacing: 0.5px;
+  color: #8E8E8E;
+  margin: 0 0 32px;
+}

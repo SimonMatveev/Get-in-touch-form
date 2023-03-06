@@ -1,0 +1,10 @@
+.form__nda-text {
+  margin: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  color: #383C3E;
+}

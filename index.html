@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get In Touch</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="page">
+  <section class="contact">
+    <div class="contact__content">
+      <h1 class="contact__title">Get in <span class="contact__span-accent">touch</span></h1>
+      <p class="contact__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, voluptates nihil
+        accusantium nam labore illum molestiae illo.</p>
+      <form action="" method="get" class="form contact__form">
+        <fieldset class="form__main-info">
+          <input class="form__name form__item" type="text" name="name" id="name" placeholder="Contact name" required>
+          <input class="form__street form__item" type="text" name="street" id="street" placeholder="Street">
+          <div class="form__inline-inputs">
+            <input class="form__city form__item" type="text" name="city" id="city" placeholder="City">
+            <input class="form__postcode form__item" type="number" name="postcode" id="postcode" placeholder="Postcode">
+          </div>
+          <input class="form__phone form__item" type="tel" name="phone" id="phone" placeholder="Contact Phone">
+          <input class="form__email form__item" type="email" name="email" id="email" placeholder="E-mail" required>
+          <textarea class="form__description form__item" name="description" id="description"
+            placeholder="Let’s talk about your idea"></textarea>
+          <label class="form__file-label">
+            <span class="form__file-text">Upload Additional file</span>
+            <input class="form__file" type="file" name="file" id="file">
+          </label>
+          <p class="form__file-description">Attach file. File size of your documents should not exceed 10MB</p>
+        </fieldset>
+        <fieldset class="form__nda">
+          <input type="checkbox" class="form__checkbox" name="NDA" id="NDA" required>
+          <label for="NDA" class="form__checkbox-label"></label>
+          <p class="form__nda-text">I want to protect my data by signing an NDA</p>
+        </fieldset>
+        <input class="form__submit" type="submit" value="submit">
+      </form>
+      <ul class="contact__contacts">
+        <li class="contact__contacts-item contact__contacts-item_t_phone">
+          <h2 class="contact__contacts-title">Phone</h2>
+          <a href="tel:+111111111" class="contact__contacts-link">111 111 111</a>
+        </li>
+        <li class="contact__contacts-item contact__contacts-item_t_email">
+          <h2 class="contact__contacts-title">E-Mail</h2>
+          <a href="mailto:info@company.com" class="contact__contacts-link">info@company.com</a>
+        </li>
+        <li class="contact__contacts-item contact__contacts-item_t_helpdesk">
+          <h2 class="contact__contacts-title">Helpdesk</h2>
+          <a href="https://helpdesk.com" class="contact__contacts-link" target="_blank">https://helpdesk.com</a>
+        </li>
+      </ul>
+    </div>
+    <iframe class="contact__iframe"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d942.61743986936!2d37.33608342252292!3d55.81173346873597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b5466648e4aac1%3A0x880d58c61ceace36!2z0JLQvtC60LfQsNC70YzQvdCw0Y8g0YPQuy4sIDE5LCDQmtGA0LDRgdC90L7Qs9C-0YDRgdC6LCDQnNC-0YHQutC-0LLRgdC60LDRjyDQvtCx0LsuLCAxNDM0MDE!5e0!3m2!1sru!2sru!4v1678104133205!5m2!1sru!2sru"
+      allowfullscreen="false" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+</body>
+
+</html>

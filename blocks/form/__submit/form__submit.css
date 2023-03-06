@@ -1,0 +1,24 @@
+.form__submit {
+  border: none;
+  width: 100%;
+  background-color: #0982FE;
+  border-radius: 10px;
+  padding: 16px 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 160%;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.form__submit:hover {
+  background-color: #0476e9;
+}
+
+.form__submit:active {
+  box-shadow: 0 0 6px 0 black;
+}

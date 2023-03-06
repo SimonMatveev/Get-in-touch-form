@@ -1,0 +1,19 @@
+.form__file-label {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  height: 104px;
+  border: 1px dashed #8E8E8E;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 7px;
+}
+
+.form__file-label:hover {
+  border-color: #000000;
+}
+
+.form__file-label:active {
+  box-shadow: 0 0 6px 0 black;
+}
